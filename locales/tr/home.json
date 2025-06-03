@@ -1,0 +1,122 @@
+{
+    "header": {
+        "home": "Ana Sayfa",
+        "goAbroad": "Yurtdışına Git",
+        "volunteering": "Gönüllülük",
+        "searchPlaceholder": "Arama...",
+        "questions": "Sorular?",
+        "aboutUs": "Hakkımızda",
+        "ourMission": "Misyonumuz",
+        "history": "Tarihçe",
+        "team": "Ekip",
+        "getInvolved": "Katıl",
+        "volunteer": "Gönüllü Ol",
+        "donate": "Bağış Yap",
+        "partner": "Ortak Ol",
+        "news": "Haberler",
+        "latestUpdates": "Son Güncellemeler",
+        "pressReleases": "Basın Açıklamaları",
+        "events": "Etkinlikler",
+        "upcomingEvents": "Yaklaşan Etkinlikler",
+        "pastEvents": "Geçmiş Etkinlikler",
+        "stories": "Hikayeler",
+        "successStories": "Başarı Hikayeleri",
+        "personalExperiences": "Raider Broşürü",
+        "accounts": "Hesaplar",
+        "createAccount": "Hesap Oluştur",
+        "login": "Giriş Yap",
+        "forgotPassword": "Şifremi Unuttum",
+        "contact": "İletişim",
+        "contactUs": "Bize Ulaşın",
+        "support": "Destek",
+        "readmore": "Daha Fazla Oku"
+    },
+    "blog": {
+        "title": "Blogdan Son Haberler",
+        "subtitle": "En son haberlerimiz ve güncellemelerimiz"
+    },
+    "questions": {
+        "title": "Sıkça Sorulan Sorular",
+        "subtitle": "Sıkça sorulan bazı sorular",
+        "didn'tFind": "Aradığınızı bulamadınız mı?",
+        "contactUs": "Destek ekibimizle iletişime geçin",
+        "learnMore": "Daha Fazla Bilgi"
+    },
+    "number": {
+        "title": "Son 2 yılda yaptığımız tüm zor işleri anlatan sayılar",
+        "description1": "Programlara katılan öğrencilerin toplam sayısı.",
+        "description2": "Öğrenciler tarafından başarıyla tamamlanan projelerin veya etkinliklerin sayısı.",
+        "description3": "Yüksek notlar veya kilometre taşlarına ulaşan öğrencilerin yüzdesi.",
+        "description4": "Öğrenciler tarafından alınan ödül veya tanıma sayısı."
+    },
+    "contact": {
+        "title": "Programımıza Katılın ve Geleceğinizi İnşa Edin",
+        "text1": "Ticari Lisans",
+        "text2": "Sınırsız İhracat",
+        "text3": "Özel Markalama",
+        "signup": "Misyonumuza Kaydolun",
+        "signupText": "Misyonumuza kaydolun ve en son güncellemeleri ve haberleri alın",
+        "email": "E-posta Adresi",
+        "name": "Tam Ad",
+        "submit": "Gönder",
+        "password": "Şifre",
+        "getstarted": "Başla",
+        "enter_name": "Adınızı Girin",
+        "enter_email": "E-posta Adresinizi Girin",
+        "enter_password": "Şifrenizi Girin"
+    },
+    "about": {
+        "description": "Öğrencilere destek sağlayan bir organizasyon olarak, öğrencilerin eğitim, profesyonel beceri gelişimi ve kişisel gelişimlerine yardımcı oluyoruz. Her öğrencinin ilham, destek ve potansiyelini keşfetme fırsatı bulabileceği bir topluluk yaratmayı hedefliyoruz. Projelerimize katılmak, sosyal etkinlik, dayanışma ve genç liderlik gelişimine katkıda bulunur.",
+        "heading1": "Öğrenciler İçin",
+        "heading2": "Gönüllü Organizasyon",
+        "button": "Organizasyonumuz Hakkında"
+    },
+    "relations": {
+        "title1": "ekip",
+        "title2": "ortaklar",
+        "title3": "ulus",
+        "description1": "Birlik Qazaq Jastary olarak, toplumun ve birliğin gücünün her birimizin hayatını değiştirme kapasitesine sahip olduğuna inanıyoruz. Projelerimiz, Türkiye'deki Kazak gençliği için fırsatlar yaratmaya, günlük sorunlarda yardımcı olmaya ve potansiyellerini geliştirmeye yöneliktir.",
+        "description2": "Her proje, sadece öğrencilerin hayatlarını iyileştirmeye yönelik bir adım değil, aynı zamanda daha büyük bir şeyin parçası olma fırsatıdır. Sadece yeni bir ortamda uyum sağlamalarına yardımcı olmakla kalmıyor, aynı zamanda onlara yeni bilgiler, kültürel değişim, destek ve dostluk kapılarını açıyoruz."
+    },
+    "testimonial": {
+        "title": "Birlik Qazaq Jastary",
+        "subtitle": "Kazak gençliğinin birliğini güçlendirmek",
+        "itemt1": "Türkiye'deki Kazak öğrencilerine destek",
+        "itemd1": "Uyum sağlamalarına, günlük ve akademik sorunları çözmelerine yardımcı olmak ve karşılıklı destek topluluğu oluşturmak.",
+        "itemt2": "Eğitim ve kültürel girişimlerin geliştirilmesi",
+        "itemd2": "Öğrencilerin kişisel ve profesyonel gelişimlerine katkı sağlayacak etkinlikler, kurslar, eğitimler ve buluşmalar düzenlemek.",
+        "itemt3": "Yurt dışındaki Kazak gençliğinin birliğini güçlendirmek",
+        "itemd3": "Öğrenciler arasında güçlü bağlar kurmak, Kazak kültürünü ve geleneklerini tanıtmak ve eğitim ile devlet kurumlarıyla iş birliği yapmak."
+    },
+    "footer": {
+        "quickLinks": "Hızlı Bağlantılar",
+        "services": "Hizmetler",
+        "helpSupport": "Yardım ve Destek",
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "service": "Hizmet",
+        "testimonial": "Referanslar",
+        "contact": "İletişim",
+        "webDesign": "Web Tasarım",
+        "webDevelopment": "Web Geliştirme",
+        "seoOptimization": "SEO Optimizasyonu",
+        "blogWriting": "Blog Yazımı",
+        "supportCenter": "Destek Merkezi",
+        "liveChat": "Canlı Sohbet",
+        "faq": "Sıkça Sorulan Sorular",
+        "termsConditions": "Koşullar ve Şartlar",
+        "aboutUs": "Hakkımızda"
+    },
+    "faq": {
+        "question1": "Kimler Birlik Qazaq Jastary'den yardım alabilir?",
+        "answer1": "Türkiye'de eğitim gören her Kazak öğrencisi bizden yardım alabilir. Biz, uyum sağlamada, hukuki sorunlarda, konut bulma, eğitim fırsatları ve daha birçok konuda destek sağlıyoruz.",
+        "question2": "Nasıl gönüllü olabilirim?",
+        "answer2": "Ekibimize katılmak için web sitemizdeki başvuru formunu doldurabilir veya sosyal medya üzerinden bizimle iletişime geçebilirsiniz. Öğrencilere yardım etmek ve Türkiye'deki Kazak toplumunu geliştirmek isteyen aktif ve girişimci insanları her zaman memnuniyetle kabul ediyoruz.",
+        "question3": "Organizasyon hangi etkinlik ve programları düzenliyor?",
+        "answer3": "Eğitim seminerleri, kültürel etkinlikler, öğrenci buluşmaları, hukuki ve danışmanlık oturumları ile öğrencilerin kişisel ve profesyonel becerilerini geliştirmeye yönelik projeler düzenliyoruz.",
+        "question4": "Organizasyonumuzu nasıl destekleyebilirim?",
+        "answer4": "Bizi gönüllü olarak, etkinliklerimize katılarak veya maddi destek sağlayarak destekleyebilirsiniz. Toplanan tüm fonlar öğrencilere yardım, etkinliklerin düzenlenmesi ve programlarımızın geliştirilmesi için kullanılacaktır."
+    },
+    "readmore": "Daha Fazla Oku",
+    "img_alt": "Birlik Qazaq Jastary, Türkiye'deki Kazak öğrencilerine destek veren gönüllü bir organizasyondur. Uyuma yardımcı oluyor, eğitim ve kültürel fırsatlar sağlıyoruz, ayrıca aynı görüşlü insanlardan oluşan bir topluluk yaratıyoruz."
+}

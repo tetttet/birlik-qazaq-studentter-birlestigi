@@ -1,0 +1,123 @@
+{
+  "header": {
+    "home": "Home",
+    "goAbroad": "Go abroad",
+    "volunteering": "Volunteering",
+    "searchPlaceholder": "Search...",
+    "questions": "Questions?",
+    "aboutUs": "About Us",
+    "ourMission": "Our Mission",
+    "history": "History",
+    "team": "Team",
+    "getInvolved": "Get Involved",
+    "volunteer": "Volunteer",
+    "donate": "Donate",
+    "partner": "Partner",
+    "news": "News",
+    "latestUpdates": "Latest Updates",
+    "pressReleases": "Press Releases",
+    "events": "Events",
+    "upcomingEvents": "Upcoming Events",
+    "pastEvents": "Past Events",
+    "stories": "Stories",
+    "successStories": "Success Stories",
+    "personalExperiences": "Raider Booklet",
+    "accounts": "Accounts",
+    "createAccount": "Create Account",
+    "login": "Login",
+    "forgotPassword": "Forgot Password",
+    "contact": "Contact",
+    "contactUs": "Contact Us",
+    "support": "Support",
+    "readmore": "Read More"
+  },
+  "blog": {
+    "title": "Latest from blog",
+    "subtitle": "Our latest news and updates"
+  },
+  "about": {
+    "description": "Our organization supports students by helping them in their studies, developing professional skills, and fostering personal growth. We aim to create a community where every student can find inspiration, support, and opportunities to unlock their potential. Participating in our projects promotes social activity, mutual assistance, and the development of youth leadership.",
+    "heading1": "Volunteer Organization",
+    "heading2": "for Students",
+    "button": "About Our Organization"
+  },
+  "questions": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Here are some of the most common questions we get asked.",
+    "didn'tFind": "Didn't find what you were looking for?",
+    "contactUs": "Contact our support",
+    "learnMore": "Learn More"
+  },
+  "number": {
+    "title": "Numbers tell all the hard works we’ve done in last 2 years",
+    "description1": "Total number of students involved in the programs.",
+    "description2": "The number of successful projects or events completed by students.",
+    "description3": "The percentage of students achieving high grades or milestones.",
+    "description4": "The number of awards or recognitions received by students."
+  },
+  "contact": {
+    "title": "Join Our Program and Built Your Future",
+    "text1": "Commercial License",
+    "text2": "Unlimited Exports",
+    "text3": "Custom Branding",
+    "signup": "Sign up to our Mission",
+    "signupText": "Sign up to our mission and get the latest updates and news",
+    "email": "Email Address",
+    "name": "Full Name",
+    "submit": "Submit",
+    "password": "Password",
+    "getstarted": "Get Started",
+    "enter_name": "Enter your name",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password"
+  },
+  "relations": {
+    "title1": "team",
+    "title2": "years",
+    "title3": "nation",
+    "description1": "At Birlik Qazaq Jastary, we believe that the power of community and unity has the ability to change the life of each of us. Our projects are aimed at creating opportunities for Kazakh youth in Turkey, assisting with everyday issues, and developing their potential.",
+    "description2": "Each project is not just a step towards improving the lives of students, but also an opportunity to become part of something bigger. We not only help them adapt to a new environment but also open doors to new knowledge, cultural exchange, support, and friendship."
+  },
+  "testimonial": {
+    "title": "Birlik Qazaq Jastary",
+    "subtitle": "key goals for your volunteer organization",
+    "itemt1": "Support for Kazakh students in Turkey",
+    "itemd1": "Providing assistance with adaptation, solving everyday and academic issues, and creating a mutual support community.",
+    "itemt2": "Development of educational and cultural initiatives",
+    "itemd2": "Organizing events, courses, training sessions, and meetings for students to foster their personal and professional growth.",
+    "itemt3": "Strengthening the unity of Kazakh youth abroad",
+    "itemd3": "Building strong connections among students, promoting Kazakh culture and traditions, and collaborating with educational and governmental institutions."
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "helpSupport": "Help & Support",
+    "home": "Home",
+    "about": "About",
+    "service": "Service",
+    "testimonial": "Testimonial",
+    "contact": "Contact",
+    "webDesign": "Web Design",
+    "webDevelopment": "Web Development",
+    "seoOptimization": "SEO Optimization",
+    "blogWriting": "Blog Writing",
+    "supportCenter": "Support Center",
+    "liveChat": "Live Chat",
+    "faq": "FAQ",
+    "termsConditions": "Terms & Conditions",
+    "aboutUs": "About Us",
+    "copyright": "Design and Developed by <1>Birlik QazaQ Jastary</1>"
+  },
+  "faq": {
+    "question1": "Who can seek help from Birlik Qazaq Jastary?",
+    "answer1": "Any Kazakh student studying in Turkey can reach out to us for support. We assist with adaptation, legal issues, finding housing, educational opportunities, and much more.",
+    "question2": "How can I become a volunteer for your organization?",
+    "answer2": "You can join our team by filling out an application on our website or contacting us through social media. We are always happy to welcome active and proactive individuals who want to help students and develop the Kazakh community in Turkey.",
+    "question3": "What events and programs does the organization conduct?",
+    "answer3": "We organize educational workshops, cultural events, student meetings, legal and consultation sessions, as well as projects aimed at developing students' personal and professional skills.",
+    "question4": "How can I support your organization?",
+    "answer4": "You can support us by becoming a volunteer, participating in our events, or providing financial support. All funds collected go towards assisting students, organizing events, and developing our programs."
+  },
+  "readmore": "Read More",
+  "img_alt": "Birlik Qazaq Jastary — a volunteer organization supporting Kazakh students in Turkey. We help with adaptation, provide educational and cultural opportunities, and create a community of like-minded individuals."
+}

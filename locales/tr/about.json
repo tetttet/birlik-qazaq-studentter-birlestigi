@@ -1,0 +1,43 @@
+{
+    "title": "Hakkımızda",
+    "subtitle": "Birlik Qazaq Jastary, Türkiye'de eğitim gören Kazak öğrencilerini desteklemek amacıyla kurulmuş bir gönüllü organizasyonudur.",
+    "desc": "Öğrencilerin yeni bir ortama uyum sağlamalarına, karşılaştıkları sorunları çözmelerine ve kişisel büyüme ve profesyonel gelişim fırsatları sunmalarına yardımcı olmayı amaçlıyoruz. Organizasyonumuz, karşılıklı yardım, birlik ve Kazak kültürüne saygı ilkelerine dayanmaktadır. Yabancı bir ülkede destek almanın, özellikle uyum zorlukları, dil engelleri ve diğer zorluklarla karşılaşan öğrenciler için ne kadar önemli olduğunu anlıyoruz. Her öğrencinin güvenli bir ortamda kendini geliştirebileceği bir topluluk oluşturmayı hedefliyoruz.",
+    "help": {
+        "title1": "Öğrenci Desteği",
+        "desc2": "Öğrencilere günlük ve hukuki sorunları çözmede, Türk üniversitelerindeki akademik ve idari süreçler hakkında danışmanlık yapmada, konaklama bulmada ve yeni ortama uyum sağlamada yardımcı oluyoruz.",
+        "title2": "Eğitim İnisiyatifleri",
+        "desc3": "Öğrencilerin kişisel ve profesyonel becerilerini geliştirmeyi amaçlayan eğitimler, atölye çalışmaları ve konferanslar düzenliyoruz. Bilgi ve deneyimin başarıya giden anahtar olduğuna inanıyoruz.",
+        "title3": "Kültürel Etkinlikler",
+        "desc4": "Öğrencilere Kazakistan'ın gelenekleri ve kültürüyle tanışma fırsatı sunan, ayrıca Türk kültürünü öğrenmelerine olanak tanıyan kültürel etkinlikler düzenliyoruz ve kültürlerarası bağlantılar kuruyoruz."
+    },
+    "mission": {
+        "title": "Misyonumuz",
+        "desc1": "Öğrencilerin yeni bir ortama uyum sağlamalarına, karşılaştıkları sorunları çözmelerine ve kişisel büyüme ve profesyonel gelişim fırsatları sunmalarına yardımcı olmak.",
+        "desc2": "Türkiye'deki Kazak öğrenciler arasında güçlü bağlar oluşturmak, onları uyum sürecinde desteklemek ve hayatlarını geliştirmek için eğitim, kültür ve sosyal fırsatlar sunmak. Birlik gücüne inanıyor ve öğrencilerin potansiyellerini açmalarına ve alanlarında lider olmalarına yardımcı olacak kültürel, eğitim ve sosyal projeler geliştirmeyi amaçlıyor ve bunun için çaba sarf ediyoruz."
+    },
+    "teamCards": {
+        "title1": "Öğrenci Desteği",
+        "description1": "Günlük ve hukuki sorunların çözülmesine yardımcı oluyoruz, Türk üniversitelerindeki akademik ve idari süreçler hakkında danışmanlık sağlıyoruz, konaklama ve yeni çevreye entegrasyon konusunda yardım sunuyoruz.",
+        "title2": "Eğitimsel İnisiyatifler",
+        "description2": "Öğrencilerin kişisel ve profesyonel becerilerini geliştirmeye yönelik seminerler, atölye çalışmaları ve konferanslar düzenliyoruz. Bilgi ve deneyimin başarı için anahtar olduğuna inanıyoruz.",
+        "title3": "Kültürel Etkinlikler",
+        "description3": "Öğrencilerin Kazakistan'ın gelenekleri ve kültürü hakkında bilgi edinmelerini sağlayacak kültürel etkinlikler düzenliyoruz, aynı zamanda Türk kültürünü keşfederek kültürlerarası bağlar kurmalarına olanak tanıyoruz."
+    },
+    "blog": {
+        "text1": "BIRLIK'ta, teknoloji ve işbirliğinin bireyleri ve organizasyonları güçlendirmek için bir araya geldiği bir topluluk oluşturmaya adanmışız. Misyonumuz, gelişen teknoloji dünyasında geliştiricilere, öğrencilere ve işletmelere bugünün hızla değişen teknoloji dünyasında başarılı olmaları için ihtiyaç duydukları araçları, kaynakları ve desteği sağlamaktır.",
+        "text2": "Bilgi boşluklarını dolduran, yeniliği besleyen ve sürekli öğrenmeyi teşvik eden bir platform oluşturmayı amaçlıyoruz.",
+        "text3": "Teknolojide önde olmak isteyen deneyimli bir geliştirici, yeni teknolojiler öğrenen bir öğrenci veya son teknoloji çözümlere ihtiyaç duyan bir işletme olun, BIRLIK başarılı olmanıza yardımcı olmak için burada.",
+        "title1": "Öğrenci Desteği ve Mentorluk",
+        "title2": "Eğitimsel İnisiyatifler ve Atölye Çalışmaları",
+        "blog": "Blog Gönderileri"
+    },
+    "team": {
+        "meet": "Profesyonellerimizle tanışın",
+        "desc": "Öğrencilerin yeni bir ortama uyum sağlamalarına, karşılaştıkları sorunları çözmelerine ve kişisel büyüme ve profesyonel gelişim fırsatları sunmalarına yardımcı olmayı amaçlıyoruz. Organizasyonumuz, karşılıklı yardım, birlik ve Kazak kültürüne saygı ilkelerine dayanmaktadır. Yabancı bir ülkede destek almanın, özellikle uyum zorlukları, dil engelleri ve diğer zorluklarla karşılaşan öğrenciler için ne kadar önemli olduğunu anlıyoruz. Her öğrencinin güvenli bir ortamda kendini geliştirebileceği bir topluluk oluşturmayı hedefliyoruz.",
+        "viewall": "Hepsini Gör"
+    },
+    "map": {
+        "title": "10 yıldan fazla süredir hizmet veriyoruz",
+        "subtitle": "Birlik Qazaq Jastary, Türkiye'de eğitim gören Kazak öğrencilerini desteklemek amacıyla kurulmuş bir gönüllü organizasyonudur."
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "news": "News",
+    "text": "Here you can find the latest news about our company and our products.",
+    "firenews": "Featured News",
+    "allnews": "All News",
+    "readmore": "Read More",
+    "shortnews": "Short News about our company and our products.",
+    "breakingnews": "Breaking News",
+    "newslist": {
+        "news1": "Launch of a new educational program for students",
+        "news2": "Student Assistance Project: Your first step in Turkey"
+    },
+    "interestings": "Interesting News for You",
+    "block": {
+        "title": "Welcome to BIRLIK QAZAQ JASTARY NEWS page",
+        "desc": "Here you will find up-to-date information about our latest projects, events, and activities. We always strive to stay in touch with our audience and share all important news that can help students and volunteers.",
+        "subdesc": "On this page, we share the most important news and events related to our projects and activities. We are always happy to inform you about new initiatives and provide up-to-date information for students and volunteers. We constantly update information about our projects and events. Follow the news not to miss important announcements and events that will help you in your studies and life in Turkey. Here we publish all the latest news and event announcements that may be useful for students and anyone interested in supporting Kazakh youth. Don't miss the chance to participate in our projects!",
+        "text1": "Be the first to learn about new projects, events, and campaigns we are conducting. We are always open to new ideas and welcome your participation in our initiatives. In our news section, you will find all the latest information about the organization's activities. We strive to share with you new opportunities for growth, education, and cultural exchange.",
+        "text2": "We publish the most important updates related to our initiatives and activities. Stay informed about all events and opportunities for participation, support, and volunteering."
+    },
+    "ourteam": {
+        "title": "Our Team",
+        "desc": "Our team consists of professionals who are ready to help you at any time. We are always happy to answer your questions and provide you with all the necessary information.",
+        "subdesc": "We strive to create a team that will work for the benefit of our students and volunteers. We are always ready to help you solve any issues and provide you with all the necessary information about our projects and events."
+    },
+    "mission": {
+        "title": "Our Mission",
+        "desc": "We aim to help students and volunteers in their studies and life in Turkey. We provide information about our projects and events that may be useful for anyone interested in supporting Kazakh youth in Turkey.",
+        "subdesc": "We are constantly working to provide you with up-to-date information about our projects and events. We aim to create conditions for the education and development of students and volunteers to help them in their studies and life in Turkey."
+    },
+    "donate": "Donate",
+    "story": "Your story starts with us.",
+    "storydesc": "We are always happy to answer your questions and provide you with all the necessary information.",
+    "hero": {
+        "t1": "Creating BIRLIK QAZAQ JASTARY",
+        "d1": "The BIRLIK website was created to combine various aspects related to technological solutions and community development. His main task was to create a space for communication and knowledge exchange among people interested in programming and technical development.",
+        "t2": "Stages of growth",
+        "d2": "At the initial stages, the site was a small project, but over time it attracted attention due to high-quality content and active community support. This has significantly expanded the functionality, including various user services and collaboration tools.",
+        "t3": "Impact on the community",
+        "d3": "BIRLIK has become an important resource for many developers, providing a platform for sharing experiences, new ideas and solutions. The site actively supports innovation and collaboration within its audience, stimulating a growing interest in technology and programming."
+    },
+    "workwithus": "Working with us is a pleasure",
+    "workdesc": "We are always looking for talented individuals to join our team. If you are passionate about technology and community development, we would love to hear from you. Check out our current job openings and apply today!",
+    "slider": {
+        "t1": "Students and beginners",
+        "d1": "Providing opportunities for students and beginners to grow and adapt to new environments.",
+        "t2": "For individual participants",
+        "d2": "Helping individual participants find suitable educational and career opportunities.",
+        "t3": "Orientation in another country",
+        "d3": "Assisting students and young professionals in adapting to life in a new country, including help with documents, housing, and cultural integration.",
+        "t4": "Support for youth initiatives",
+        "d4": "Supporting and developing youth initiatives aimed at improving life and creating new potential.",
+        "t5": "Assistance in studying abroad",
+        "d5": "Providing support to students and young people wishing to study abroad, including consultations and assistance in finding educational programs."
+    },   
+    "donation": "Contact For Donation",
+    "yourname": "Your Name",
+    "email": "Email",
+    "phone": "Phone",
+    "send": "Send",
+    "joinus": "Join us in making a real impact.",
+    "joinnow": "Join Now",
+    "volo": "VOLUNTEERS",
+    "group": "GROUPS",
+    "dnt": "DONATES"
+}
