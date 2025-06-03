@@ -26,7 +26,7 @@ const Home = () => {
       {/* Main Sections */}
       <Slider />
       <Blog />
-      <Banner />
+      {/* <Banner /> */}
       <About />
       <Hero />
       <MissionSection />

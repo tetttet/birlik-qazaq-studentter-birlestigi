@@ -26,7 +26,7 @@ const AboutComponent = () => {
     const teamCards = [
         { icon: <FaAddressBook className="text-blue-700 w-12 h-8" />, title: t('teamCards.title1'), description: t('teamCards.description1') },
         { icon: <GiTeamIdea className="text-blue-700 w-12 h-8" />, title: t('teamCards.title2'), description: t('teamCards.description2') },
-        { icon: <SiDevexpress className="text-blue-700 w-12 h-8" />, title: t('teamCards.title3'), description: t('teamCards.description3')  }
+        { icon: <SiDevexpress className="text-blue-700 w-12 h-8" />, title: t('teamCards.title3'), description: t('teamCards.description3') }
     ];
 
     return (
@@ -36,7 +36,7 @@ const AboutComponent = () => {
             </p>
             <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div className="w-full lg:w-6/12">
-                    <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">
+                    <h2 className="w-full font-bold lg:text-3xl text-3xl lg:leading-10 leading-9">
                         {t("subtitle")}
                     </h2>
                     <p className="font-normal text-base leading-6 text-gray-600 mt-6">
@@ -88,17 +88,33 @@ const AboutComponent = () => {
                 </div>
                 <div className="w-full lg:w-6/12">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
-                        {teamCards.map((card, index) => (
-                            <div key={index} className="flex p-4 shadow-md">
-                                <div className="mr-6">
-                                    {card.icon}
-                                </div>
-                                <div>
-                                    <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">{card.title}</p>
-                                    <p className="mt-2 font-normal text-base leading-6 text-gray-600">{card.description}</p>
-                                </div>
+                        <div className="flex p-4 shadow-sm">
+                            <div className="mr-6">
                             </div>
-                        ))}
+                            <div>
+                                <p className="font-semibold mb-6 lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">
+                                    Біздің құндылықтарымыз
+                                </p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">
+                                    •⁠  ⁠Бірлік пен бауырмалдық
+                                </p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">
+                                    •⁠  ⁠Адалдық пен ашықтық
+                                </p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">
+                                    •⁠  Ұлттық рух пен мәдениетке құрмет
+                                </p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">
+                                    •⁠  Үздіксіз даму мен білімге ұмтылыс
+                                </p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">
+                                    •⁠  Жауапкершілік пен сенім
+                                </p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">
+                                    •⁠  Мәдениетаралық өзара түсіністік
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

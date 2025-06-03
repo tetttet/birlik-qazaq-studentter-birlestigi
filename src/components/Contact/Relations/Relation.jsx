@@ -49,9 +49,9 @@ const Relation = () => {
                     <div className="grid items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6 sm:gap-x-12 gap-y-12">
                         <div className="lg:col-span-2">
                             <h2 className="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight">
-                                1 {t("relations.title3")}.<br />
-                                1 {t("relations.title1")}.<br />
-                                1 {t("relations.title2")}.<br />
+                                {t("relations.title3")}.<br />
+                                {t("relations.title1")}.<br />
+                                {t("relations.title2")}.<br />
                             </h2>
                             <p className="mt-6 text-base text-gray-600">
                                 {t("relations.description1")}

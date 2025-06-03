@@ -8,36 +8,49 @@ const connection = () => {
 
   const items = [
     {
-      title: "Группа Программистов",
+      title: "⁠Birlik IT-club",
       description:
-        "Энтузиасты программирования, создающие инновационные решения. Разрабатываем веб-приложения, мобильные сервисы и автоматизируем процессы. Любим чистый код, новые технологии и совместную разработку.",
-      imgSrc: "https://dummyimage.com/1203x503",
+        "Бағдарламалау мен жаңа технологияларды сүйетін жастар клубы.",
+      imgSrc: "/assets/images/aiti.jpeg", 
     },
     {
-      title: "Группа Дизайнеров",
+      title: "Birlik Sport-club ",
       description:
-        "Творческое сообщество, где рождаются яркие идеи! Мы занимаемся графическим дизайном, UI/UX, анимацией и брендингом. Здесь стиль встречается с функциональностью, а искусство — с технологиями.",
-      imgSrc: "https://dummyimage.com/1204x504",
+        "Дене шынықтыру мен спортты қолдайтын белсенді қатысушылар қауымы.",
+      imgSrc: "https://plus.unsplash.com/premium_photo-1685366454253-cb705836c5a8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFNwb3J0fGVufDB8fDB8fHww",
     },
     {
-      title: "Группа Архитекторов",
+      title: "⁠⁠Birlik Design-club",
       description:
-        "Профессионалы, создающие гармоничную среду. Проектируем современные здания, разрабатываем урбанистические решения и внедряем устойчивые технологии. Форма, удобство и эстетика — наш главный фокус.",
-      imgSrc: "https://dummyimage.com/1205x505",
+        "Дизайн мен көркемдік шешімдерге қызығатын шығармашыл орта.",
+      imgSrc: "https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVzaWdufGVufDB8fDB8fHww",
     },
     {
-      title: "Группа Архитекторов",
+      title: "Birlik Architecture-club ",
       description:
-        "Профессионалы, создающие гармоничную среду. Проектируем современные здания, разрабатываем урбанистические решения и внедряем устойчивые технологии. Форма, удобство и эстетика — наш главный фокус.",
-      imgSrc: "https://dummyimage.com/1205x505",
+        "Қала құрылысы мен сәулетке қызығатын болашақ мамандар клубы.",
+      imgSrc: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXJjaGl0ZWN0dXJlfGVufDB8fDB8fHww",
     },
     {
-      title: "Группа Архитекторов",
+      title: "Birlik Shabyt-club",
       description:
-        "Профессионалы, создающие гармоничную среду. Проектируем современные здания, разрабатываем урбанистические решения и внедряем устойчивые технологии. Форма, удобство и эстетика — наш главный фокус.",
-      imgSrc: "https://dummyimage.com/1205x505",
+        "Шабыт пен өнерді бағалайтын шығармашылық тұлғалар клубы.",
+      imgSrc: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZXZlbnR8ZW58MHx8MHx8fDA%3D",
+    },
+    {
+      title: "Birlik TedTalks-club",
+      description:
+        "Ой бөлісу мен шабыттандырушы баяндамаларға арналған алаң.",
+      imgSrc: "/assets/images/ted.jpeg",
+    },
+    {
+      title: "Birlik Speaking-club",
+      description:
+        "Ағылшын тілінде сөйлеу дағдыларын дамытуға арналған клуб.",
+      imgSrc: "/assets/images/tedlacks.jpeg",
     },
   ];
+
 
 
   return (
@@ -53,10 +66,10 @@ const connection = () => {
             </div>
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
               <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">
-                Space The Final Frontier
+                Birlik Qazaq Studentter Birlestigi клубтары
               </h1>
               <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-                Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.
+                <strong>Birlik Qazaq Studentter Birlestigi</strong> клубтары - бұл жастардың шығармашылық, спорттық және ғылыми әлеуетін дамытуға арналған алаң. Әр клуб өз бағыты бойынша белсенді жұмыс істеп, қатысушыларға жаңа мүмкіндіктер мен тәжірибе алмасу мүмкіндігін ұсынады. Клубтарымызға қосылып, өзіңізді қызықтыратын салада дамыңыз!
               </p>
             </div>
           </div>
@@ -77,7 +90,7 @@ const connection = () => {
                 </h2>
                 <p className="text-base leading-relaxed mt-2">{item.description}</p>
                 <Link to="" className="text-indigo-500 inline-flex items-center mt-3" >
-                  Learn More
+                  Толығырақ
                   <svg
                     fill="none"
                     stroke="currentColor"

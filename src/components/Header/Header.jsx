@@ -39,7 +39,7 @@ const Header = () => {
 
 const CreditBanner = () => {
     return (
-        <div className="w-full text-center text-sm text-gray-600 bg-white">
+        <div className="w-full text-center text-[14px] text-gray-600 bg-white">
             Сайт разработан
             {' '}
             <a

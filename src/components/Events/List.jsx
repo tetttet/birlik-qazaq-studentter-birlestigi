@@ -14,16 +14,17 @@ import { gsap } from "gsap";
 import { Power4 } from 'gsap/gsap-core';
 
 const data = [
-  { key: 1, title: "Нурасыл Балташ", role: "Президент", img: img1 },
+  { key: 1, title: "Нұрасыл Балташ", role: "Президент", img: img1 },
   { key: 2, title: "Дильназ Нурмаганбетова", role: "Президент", img: img2 },
-  { key: 3, title: "Альтемир Женисбек", role: "Вице-лидер", img: img3 },
-  { key: 4, title: "Алихан Керей", role: "Вице-лидер", img: img4 },
-  { key: 5, title: "Алина Мизамбаева", role: "Вице-лидер", img: img5 },
-  { key: 6, title: "Жасулан Нияткул", role: "Вице-лидер", img: img6 },
-  { key: 7, title: "Аружан Нурмаганбетова", role: "Координатор", img: img7 },
-  { key: 8, title: "Нурдин Айтмырза", role: "Вице-лидер", img: img8 },
-  { key: 9, title: "Аружан Кайырбек", role: "Вице-лидер", img: img9 },
-  { key: 9, title: "Данаел Кама", role: "Вице-лидер", img: img9 },
+  { key: 3, title: "Нурдин Айтмырз", role: "Вице-лидер", img: img3 },
+  { key: 4, title: "Альтемір Жеңісбек", role: "Вице-лидер", img: img4 },
+  { key: 5, title: "Аружан Қайырбек", role: "Вице-лидер", img: img5 },
+  { key: 6, title: "⁠⁠Алина Мизамбаева", role: "Вице-лидер", img: img6 },
+  { key: 7, title: "⁠⁠Данаел Кама", role: "Координатор", img: img7 },
+  { key: 8, title: "Жасұлан Ниятқұл", role: "Вице-лидер", img: img8 },
+  { key: 9, title: "Нұрайым Искакова", role: "Вице-лидер", img: img9 },
+  { key: 9, title: "Ақиқат Димағамбетов", role: "Вице-лидер", img: img9 },
+  { key: 10, title: "⁠⁠Алихан Кереев", role: "Вице-лидер", img: img9 },
 ]
 
 
@@ -84,7 +85,7 @@ function List() {
               sm:items-center justify-between z-[3]"
             >
               <div className="left sm:flex items-center gap-14 sm:text-5xl">
-                <h3 className="hidden sm:inline-block opacity-25">0{item.key}</h3>
+                <h3 className="hidden sm:inline-block opacity-25">{item.key}</h3>
                 <h1 className="text-blue-600 text-3xl sm:text-black sm:text-[6vh]">{item.title}</h1>
               </div>
               <h3 className="font-[Sansita] text-[3vh] sm:text-[2.4vh] font-medium tracking-tight">

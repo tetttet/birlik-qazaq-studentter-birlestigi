@@ -75,22 +75,6 @@ const HeaderBar = () => {
                         </div>
                     )}
                 </div>
-
-                {/* Get Involved */}
-                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('getInvolved')}>
-                    <Link to="/connection">{t('header.getInvolved')}</Link>
-                    <span className={styles['headerbar-dropdownIcon']}>
-                        {openDropdown === 'getInvolved' ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                    </span>
-                    {openDropdown === 'getInvolved' && (
-                        <div className={styles['headerbar-dropdown']}>
-                            <Link to="/connection">{t('header.volunteer')}</Link>
-                            <Link to="/connection">{t('header.donate')}</Link>
-                            <Link to="/connection">{t('header.partner')}</Link>
-                        </div>
-                    )}
-                </div>
-
                 {/* News */}
                 <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('news')}>
                     <Link to="/news">{t('header.news')}</Link>
@@ -100,11 +84,9 @@ const HeaderBar = () => {
                     {openDropdown === 'news' && (
                         <div className={styles['headerbar-dropdown']}>
                             <Link to="/news">{t('header.latestUpdates')}</Link>
-                            <Link to="/news">{t('header.pressReleases')}</Link>
                         </div>
                     )}
                 </div>
-
                 {/* Events */}
                 <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('events')}>
                     <Link to="/events">{t('header.events')}</Link>
@@ -118,48 +100,28 @@ const HeaderBar = () => {
                         </div>
                     )}
                 </div>
-
-                {/* Stories */}
-                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('stories')}>
-                    <Link to="#">{t('header.stories')}</Link>
-                    <span className={styles['headerbar-dropdownIcon']}>
-                        {openDropdown === 'stories' ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                    </span>
-                    {openDropdown === 'stories' && (
-                        <div className={styles['headerbar-dropdown']}>
-                            <Link to="#">{t('header.successStories')}</Link>
-                            <Link to="/raider">{t('header.personalExperiences')}</Link>
-                        </div>
-                    )}
-                </div>
-
                 {/* Accounts */}
                 <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('accounts')}>
                     <Link to="#">{t('header.accounts')}</Link>
-                    <span className={styles['headerbar-dropdownIcon']}>
-                        {openDropdown === 'accounts' ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                    </span>
-                    {openDropdown === 'accounts' && (
-                        <div className={styles['headerbar-dropdown']}>
-                            <Link to="#">{t('header.createAccount')}</Link>
-                            <Link to="#">{t('header.login')}</Link>
-                            <Link to="#">{t('header.forgotPassword')}</Link>
-                        </div>
-                    )}
+                </div>
+
+                {/* Get Involved */}
+                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('getInvolved')}>
+                    <Link to="/connection">{t('header.getInvolved')}</Link>
+                </div>
+
+                {/* Stories */}
+                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('stories')}>
+                    <Link to="/team">{t('header.stories')}</Link>
+                </div>
+
+                <div className={styles['headerbar-navItem']}>
+                    <Link to="/team">Команда</Link>
                 </div>
 
                 {/* Contact */}
                 <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('contact')}>
-                    <Link to="/contact">{t('header.contact')}</Link>
-                    <span className={styles['headerbar-dropdownIcon']}>
-                        {openDropdown === 'contact' ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                    </span>
-                    {openDropdown === 'contact' && (
-                        <div className={styles['headerbar-dropdown']}>
-                            <Link to="/contact">{t('header.contactUs')}</Link>
-                            <Link to="/contact">{t('header.support')}</Link>
-                        </div>
-                    )}
+                    <Link to="/raider">{t('header.personalExperiences')}</Link>
                 </div>
             </div>
         </div>

@@ -1,10 +1,7 @@
-import { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-
-import img from "../../../assets/relation/1.png"
 
 import img1 from "../../../assets/news/1.png"
 import img2 from "../../../assets/news/2.png"
@@ -22,7 +19,6 @@ import img12 from "../../../assets/news/12.jpg"
 import img13 from "../../../assets/news/13.jpg"
 import img14 from "../../../assets/news/14.jpg"
 import img15 from "../../../assets/news/15.jpg"
-import { t } from "i18next";
 
 
 const NewsSlider = () => {
@@ -60,7 +56,7 @@ const NewsSlider = () => {
                             {newsData.map((news) => (
                                 <div key={news.id} className="relative h-[500px]">
                                     <img src={news.img} className="w-full h-full object-cover" alt="news" />
-                                    <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4 text-white">
+                                    <div className="absolute inset-0 flex flex-col justify-end p-4 text-white">
                                         <div className="flex items-center space-x-2 mb-2">
                                             <span className="bg-blue-600 text-white text-xs font-bold px-2 py-1 uppercase">{news.category}</span>
                                             <span className="text-sm">{news.date}</span>
@@ -75,7 +71,7 @@ const NewsSlider = () => {
                         {smallNewsData.map((news) => (
                             <div key={news.id} className="relative h-[250px]">
                                 <img src={news.img} className="w-full h-full object-cover" alt="news" />
-                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-2 text-white">
+                                <div className="absolute inset-0 flex flex-col justify-end p-2 text-white">
                                     <div className="flex items-center space-x-2 mb-1">
                                         <span className="bg-blue-600 text-white text-xs font-bold px-2 py-1 uppercase">{news.category}</span>
                                         <span className="text-sm">{news.date}</span>
@@ -120,7 +116,7 @@ const NewsSlider = () => {
                             <SwiperSlide key={index}>
                                 <div className="relative overflow-hidden h-[300px]">
                                     <img className="w-full h-full object-cover" src={news.img} alt="news" />
-                                    <div className="absolute bottom-0 bg-black bg-opacity-50 p-3 w-full">
+                                    <div className="absolute bottom-0 p-3 w-full">
                                         <div className="mb-2">
                                             <p className="bg-primary text-white uppercase font-semibold p-2 mr-2" >{news.category}</p>
                                             <p className="text-white" ><small>{news.date}</small></p>
@@ -134,7 +130,7 @@ const NewsSlider = () => {
                 </div>
             </div>
 
-            <div className="container-fluid">
+            <div className="container mx-auto px-4 py-8">   
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">

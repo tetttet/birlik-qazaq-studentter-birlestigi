@@ -152,7 +152,7 @@ function Home() {
 
                 <div className='btmtext absolute z-[4] bottom-[4%] left-[25%] text-center sm:text-start sm:bottom-[7%] sm:left-8 w-48 '>
                     <h1 className='sm:text-[2vh] font-semibold'>
-                        Мы Birlik создаем возможности для каждого
+                        Біз Birlik барлығына мүмкіндіктер жасаймыз
                     </h1>
                 </div>
                 {/* video div */}
@@ -183,7 +183,7 @@ function Home() {
                     -translate-x-1/2 w-72'
                     >
                         <h2 className='toptext mt-12 text-[2.2vh] font-[Sansita] tracking-wide font-medium text-center'>
-                            Мы Birlik создаем возможности для каждого
+                             Біз Birlik барлығына мүмкіндіктер жасаймыз
                         </h2>
                     </div>
 

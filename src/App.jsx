@@ -26,6 +26,7 @@ import Page12 from "./pages/Raider/Pages/Page12.jsx";
 import Page13 from "./pages/Raider/Pages/Page13.jsx";
 import Page14 from "./pages/Raider/Pages/Page14.jsx";
 import SearchPage from "./pages/SearchPage.jsx";
+import Team from "./pages/Team/Team.jsx";
 
 const routes = [
   { path: "/", element: <Home />, exact: true },
@@ -52,6 +53,7 @@ const routes = [
   { path: "/istanbul-museum-card", element: <Page12 /> },
   { path: "/additional-information", element: <Page13 /> },
   { path: "/conclusion", element: <Page14 /> },
+  { path: "/team", element: <Team /> }
 ];
 
 function App() {

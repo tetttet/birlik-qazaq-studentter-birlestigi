@@ -27,7 +27,7 @@ const aboutUs = () => {
             {/* <Content /> */}
 
             {/* Team Component */}
-            <TeamComponent />
+            {/* <TeamComponent /> */}
 
             {/* Graph Component */}
             {/* <GraphComponent /> */}
@@ -35,9 +35,9 @@ const aboutUs = () => {
             {/* Map Component */}
             <MapComponent />
 
-            <div className='mt-56 lg:mt-0'>
+            {/* <div className='mt-56 lg:mt-0'>
                 <History />
-            </div>
+            </div> */}
 
             {/* ChatBot */}
             <ChatBot />

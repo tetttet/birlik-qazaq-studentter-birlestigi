@@ -12,22 +12,23 @@ import PropTypes from 'prop-types';
 function Row({ translateClass, direction }) {
 
     const items = [
-        { text: "Помогаем людям", image: img7 },
-        { text: "Понятно каждому", image: img2 },
-        { text: "С теплотой и заботой", image: img3 },
-        { text: "Поддержка рядом", image: img4 },
-        { text: "Чуткость к каждому", image: img5 },
-        { text: "Просто и ясно", image: img2 },
-        { text: "Делаем добро", image: img4 },
-        { text: "Внимание к деталям", image: img5 },
-        { text: "Легко разобраться", image: img2 },
-        { text: "С открытым сердцем", image: img6 },
-        { text: "Всегда на связи", image: img1 },
-        { text: "С душой", image: img6 },
-        { text: "Забота — в приоритете", image: img5 },
-        { text: "Доступно каждому", image: img2 },
-        { text: "Важен каждый", image: img4 },
+        { text: "Адамдарға көмектесеміз", image: "https://images.unsplash.com/photo-1672939113761-f599cebb325f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8a2F6YWtofGVufDB8fDB8fHww" },
+        { text: "Әркімге түсінікті", image: "https://plus.unsplash.com/premium_photo-1661833822591-0fb1f995ea65?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D" },
+        { text: "Жылулықпен және қамқорлықпен", image: "https://plus.unsplash.com/premium_photo-1670552850934-71c33fd7f1d7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2F6YWtofGVufDB8fDB8fHww" },
+        { text: "Қолдау әрдайым жанымызда", image: "https://plus.unsplash.com/premium_photo-1674458852518-396eaee81d63?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D" },
+        { text: "Әр адамға сезімталдық", image: "https://images.unsplash.com/photo-1717225054383-127d7ff9d901?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" },
+        { text: "Қарапайым және түсінікті", image: img2 },
+        { text: "Жақсылық жасаймыз", image: "https://plus.unsplash.com/premium_photo-1674458852518-396eaee81d63?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D" },
+        { text: "Ұсақ-түйекке мән береміз", image: img5 },
+        { text: "Тез әрі оңай түсінуге болады", image: img2 },
+        { text: "Ашық жүрекпен", image: "https://plus.unsplash.com/premium_photo-1661833822591-0fb1f995ea65?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D" },
+        { text: "Әрдайым байланыстамыз", image: img1 },
+        { text: "Шын көңілмен", image: "https://plus.unsplash.com/premium_photo-1661833822591-0fb1f995ea65?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D" },
+        { text: "Қамқорлық — басты орында", image: img5 },
+        { text: "Кез келген адамға қолжетімді", image: img2 },
+        { text: "Әр адам біз үшін маңызды", image: img4 },
     ];
+
 
 
     return (

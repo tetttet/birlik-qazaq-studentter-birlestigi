@@ -15,15 +15,14 @@ function FooterBanner() {
         <div className="right order-2 sm:order-3 flex sm:w-1/2 items-center justify-between sm:px-10">
           <div className="rght1 sm:w-2/3 flex flex-col items-end px-8 mt-6">
             <h3 className="text-[2.4vh] sm:text-[1.4rem] font-[Sansita] font-medium text-right">
-              Birlik - обьединение студентов, <br />
-              стремящихся к развитию и <br />
-              улучшению качества образования в <br />
-              Казахстане.
-              Наша цель - создать организацию, <br />
-              которая будет представлять интересы <br />
-              студентов и помогать им в <br />
-              достижении их целей.
-              
+              «Бірлік» студенттер бірлестігі <br />
+              дамуға ұмтылу және <br />
+              білім сапасын арттыру <br />
+              Қазақстан.
+              Біздің мақсатымыз ұйым құру <br />
+              мүдделерін білдіретін болады
+              студенттерге және оларға <br /> көмектесу
+              өз мақсаттарына жету.
             </h3>
           </div>
           <div className="hidden sm:inline-block rght2 relative w-[150px] h-[150px] overflow-hidden;">

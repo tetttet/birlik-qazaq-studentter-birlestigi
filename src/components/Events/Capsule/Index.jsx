@@ -38,15 +38,15 @@ function Capsule() {
         >
             <div className="left sm:w-1/3 h-full flex flex-col sm:justify-between py-10 items-start " >
                 <h1 className="w-2/3 font-[Sansita] text-[2.8vh] leading-[4vh] font-medium">
-                    Birlik Qazaq Studentter Birlestigi - мы - это студенческая организация, <br />
-                    которая объединяет студентов из разных уголков Казахстана, <br />
-                    стремящихся к развитию, обучению и взаимопомощи. <br />
+                    Birlik Qazaq Studentter Birlestigi- біз студенттер ұйымымыз, <br />
+                    Қазақстанның әр түкпірінен келген студенттерді біріктіретін <br />
+                    дамуға, оқуға және өзара көмекке ұмтылу. <br />
                 </h1>
                 <div className="heading">
                     <h1 className="font-[SansitaReg] text-[5vh] leading-[6.5vh] sm:text-[8vh] py-5 sm:leading-[9vh]">
-                        Смотри наши статьи
+                        Біздің мақалаларды қараңыз
                     </h1>
-                    <Button bgColor="bg-[#f5f19c]" text="СМОТРЕТЬ НАШУ ИСТОРИЮ" />
+                    <Button bgColor="bg-[#f5f19c]" text="ТАРИХЫМЫЗДЫ ҚАРАҢЫЗ" />
                 </div>
             </div>
             <div className=" right font-[SansitaReg] mt-10 sm:w-2/3 space-y-10 h-full sm:flex items-start justify-start sm:gap-20  ">
@@ -58,13 +58,13 @@ function Capsule() {
                         <img className="h-full w-full object-cover" src={cap1} />
                     </div>
                     <div className="text text-center text-[6vw] sm:text-[3.2vh] font-semibold mt-10 leading-[4.8vh]">
-                        <h3>Сила единства:<br />
-                            Волонтёрское движение<br />
+                        <h3>Бірлік күші:<br />
+                            Еріктілер қозғалысы<br />
                             Birlik Qazaq Studentter Birlestigi
                         </h3>
                     </div>
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-10 mt-10 font-semibold">
-                        Волонтёрское движение
+                        Еріктілер қозғалысы
                     </button>
 
                 </div>
@@ -76,12 +76,12 @@ function Capsule() {
                     <button className="bg-[#e9bbff] text-black px-4 rounded-full text-medium py-3 mb-6 mt-10 font-semibold">Thought Leadership</button>
 
                     <div className="text text-center text-[3.2vh] flex flex-col gap-6 mb-6 font-semibold leading-[4.8vh]">
-                        <h3> Мы объединяем студентов ради добра,<br />
-                            лидерства и развития общества. <br />
-                            Каждый шаг — вклад в сильное будущее!
+                        <h3> Оқушыларды жақсылық үшін біріктіреміз,<br />
+                            көшбасшылық және қоғамның дамуы. <br />
+                            Әрбір қадам – мықты болашаққа салынған инвестиция!
                         </h3>
                         <h4 className="font-[Sansita] text-[1.9vh] font-medium leading-[2.8vh] text-zinc-500">
-                            Мы стремимся к созданию сообщества, где каждый студент может внести свой вклад в развитие общества и стать лидером перемен.
+                            Біз әрбір студент қоғамға өз үлесін қосып, өзгерістер көшбасшысы бола алатын қоғамдастық құруға ұмтыламыз.
                         </h4>
                     </div>
                     <div className="image w-[74vw] h-[74vw] sm:w-[40vh] sm:h-[40vh]  rounded-full overflow-hidden">

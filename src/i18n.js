@@ -9,8 +9,8 @@ i18n
     .use(initReactI18next) // Интеграция с react-i18next
     .init({
         debug: true, // Включаем отладку
-        lng: "ru", // Язык по умолчанию
-        fallbackLng: "ru", // Резервный язык
+        lng: "kz", // Язык по умолчанию
+        fallbackLng: "kz", // Резервный язык
         returnObjects: true, // Для возврата сложных объектов в переводах
         backend: {
             // Настройка путей к JSON-файлам
