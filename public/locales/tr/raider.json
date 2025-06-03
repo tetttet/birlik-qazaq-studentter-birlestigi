@@ -1,0 +1,16 @@
+{
+    "Inroduction": {
+        "welcome": "Öğrenci hayatına hoş geldiniz!",
+        "intro": "Öğrencilik, her gün yeni bir şeyler öğrendiğiniz bir dönemdir ve bu her zaman derslerle ilgili değildir...",
+        "life": "Türkiye'deki öğrenci hayatı, her zaman yanınızda dostlarınızın, hayallerinizin ve hedeflerinizin olduğu harika bir zamandır!",
+        "citizen": "Her zaman Kazakistan vatandaşı olduğunuzu unutmayın!",
+        "honor": "Siz, halkımızın ve ülkemizin yurtdışındaki temsilcisisiniz! Sözleriniz ve davranışlarınız Kazakistan hakkında bir izlenim oluşturacaktır. Her zaman halkımızın onurlu oğulları ve kızları olun!",
+        "opportunity": "Türkiye'de eğitim almak, sadece mesleki gelişim için değil, aynı zamanda kültürel ve sosyal gelişim için de eşsiz bir fırsattır."
+    },
+    "Page1": {
+        "description": "'Birlik' Qazaq Studentter Birlestigi, Türkiye'deki Kazak öğrencilerin hayatında önemli bir rol oynamaktadır. Derneğin ana amacı, Kazakistan'dan gelen öğrencilere destek olmaktır. Topluluk, Türkiye'deki eğitim ve uyumla ilgili çeşitli konularda yardım sağlar.",
+        "events": "Dernek, eğitim, spor, kültür ve sosyal etkinlikler düzenleyerek gençlerin Kazak kültürü ve gelenekleriyle bağlantıda kalmasına yardımcı olur ve Türk toplumuna entegrasyonuna katkıda bulunur.",
+        "development": "Bu tür etkinlikler sayesinde öğrenciler, sadece gelişmekle kalmaz, aynı zamanda mesleki ve sosyal becerilerini de geliştirir.",
+        "housing": "'Birlik' Qazaq Studentter Birlestigi, konaklama bulma ve sosyal ve ev işleri çözme konusunda yardım sağlar. Dernek, gençlerin yeni bir ortamda uyum sağlamasına ve kendine güvenmesine yardımcı olur, başarılı bir öğrenme ve kişisel gelişim için koşullar yaratır."
+    }
+}

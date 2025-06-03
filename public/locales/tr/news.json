@@ -1,0 +1,66 @@
+{
+    "news": "Haberler",
+    "text": "Burada şirketimiz ve ürünlerimiz hakkındaki en son haberleri bulabilirsiniz.",
+    "firenews": "Öne Çıkan Haberler",
+    "allnews": "Tüm Haberler",
+    "readmore": "Daha Fazla Oku",
+    "shortnews": "Şirketimiz ve ürünlerimiz hakkında kısa haberler.",
+    "breakingnews": "Son Dakika",
+    "newslist": {
+        "news1": "Öğrenciler için yeni bir eğitim programının başlatılması",
+        "news2": "Öğrenci Yardım Projesi: Türkiye'deki ilk adımınız"
+    },
+    "interestings": "Sizin İçin İlginç Haberler",
+    "block": {
+        "title": "BIRLIK QAZAQ JASTARY HABERLER sayfasına hoş geldiniz",
+        "desc": "Burada en son projelerimiz, etkinliklerimiz ve faaliyetlerimiz hakkında güncel bilgiler bulacaksınız. Her zaman izleyicimizle iletişimde olmaya ve öğrencilere ve gönüllülere yardımcı olabilecek tüm önemli haberleri paylaşmaya çalışıyoruz.",
+        "subdesc": "Bu sayfada projelerimiz ve faaliyetlerimizle ilgili en önemli haberleri ve etkinlikleri paylaşıyoruz. Her zaman öğrencilere ve gönüllülere yardımcı olabilecek yeni girişimler hakkında sizi bilgilendirmekten mutluluk duyarız. Projelerimiz ve etkinliklerimiz hakkındaki bilgileri sürekli güncelliyoruz. Önemli duyuruları ve etkinlikleri kaçırmamak için haberleri takip edin, size öğrenim ve Türkiye'deki yaşamınızda yardımcı olacak önemli duyuruları ve etkinlikleri kaçırmayın. Öğrencilere ve Kazak gençliğini desteklemeye ilgi duyan herkes için yararlı olabilecek tüm en son haberleri ve etkinlik duyurularını burada yayınlıyoruz. Projelerimize katılma fırsatını kaçırmayın!",
+        "text1": "Yürüttüğümüz yeni projeler, etkinlikler ve kampanyalar hakkında ilk öğrenen siz olun. Her zaman yeni fikirlere açığız ve girişimlerimize katılımınızı bekliyoruz. Haberler bölümümüzde, organizasyonun faaliyetleri hakkındaki tüm güncel bilgileri bulacaksınız. Büyüme, eğitim ve kültürel değişim için size yeni fırsatlar sunmayı hedefliyoruz.",
+        "text2": "İnisiyatiflerimiz ve faaliyetlerimizle ilgili en önemli güncellemeleri yayınlıyoruz. Tüm etkinlikler ve katılım, destek ve gönüllülük fırsatları hakkında bilgi sahibi olun."
+    },
+    "ourteam": {
+        "title": "Ekibimiz",
+        "desc": "Ekibimiz, her zaman size yardımcı olmaya hazır profesyonellerden oluşmaktadır. Sorularınızı her zaman yanıtlamaktan ve size gerekli tüm bilgileri sağlamaktan mutluluk duyarız.",
+        "subdesc": "Öğrencilere ve gönüllülere yardımcı olacak bir ekip oluşturmayı hedefliyoruz. Tüm sorunlarınızı çözmenize ve projelerimiz ve etkinliklerimiz hakkında size gerekli tüm bilgileri sağlamanıza her zaman hazırız."
+    },
+    "mission": {
+        "title": "Misyonumuz",
+        "desc": "Öğrencilere ve gönüllülere Türkiye'deki eğitimleri ve yaşamları konusunda yardımcı olmayı hedefliyoruz. Kazak gençliğini desteklemeye ilgi duyan herkes için yararlı olabilecek projelerimiz ve etkinliklerimiz hakkında bilgi sağlıyoruz.",
+        "subdesc": "Projelerimiz ve etkinliklerimiz hakkında size güncel bilgiler sağlamak için sürekli çalışıyoruz. Öğrencilerin ve gönüllülerin eğitimleri ve Türkiye'deki yaşamlarında yardımcı olmak için çalışma koşulları yaratmayı hedefliyoruz."
+    },
+    "donate": "Bağış Yap",
+    "story": "Hikayeniz bizimle başlar.",
+    "storydesc": "Her zaman sorularınızı yanıtlamaktan ve size gerekli tüm bilgileri sağlamaktan mutluluk duyarız.",
+    "hero": {
+        "t1": "BIRLIK QAZAQ JASTARY'nin Oluşturulması",
+        "d1": "BIRLIK web sitesi, teknolojik çözümler ve topluluk gelişimi ile ilgili çeşitli yönleri bir araya getirmek için oluşturuldu. Temel görevi, programlama ve teknik gelişimle ilgilenen insanlar arasında iletişim ve bilgi alışverişi için bir alan yaratmaktı.",
+        "t2": "Büyüme Aşamaları",
+        "d2": "Başlangıç aşamalarında site küçük bir proje olsa da, zamanla yüksek kaliteli içerik ve aktif topluluk desteği nedeniyle dikkat çekti. Bu, çeşitli kullanıcı hizmetleri ve işbirliği araçları da dahil olmak üzere işlevselliği önemli ölçüde genişletti.",
+        "t3": "Topluluğa Etkisi",
+        "d3": "BIRLIK, birçok geliştirici için önemli bir kaynak haline gelmiş, deneyimler, yeni fikirler ve çözümler paylaşma platformu sağlamıştır. Site, kitle içinde yenilik ve işbirliğini destekleyerek, teknoloji ve programlamaya artan ilgiyi teşvik etmektedir."
+    },
+    "workwithus": "Bizimle Çalışmak Keyifli",
+    "workdesc": "Teknolojiye ve topluluk gelişimine ilgi duyuyorsanız, ekibimize katılmak için yetenekli insanlar arıyoruz. Mevcut pozisyonlarımızı inceleyin ve bugün başvurun!",
+    "slider": {
+        "t1": "Öğrenciler ve yeni başlayan uzmanlar",
+        "d1": "Öğrencilere ve yeni başlayan uzmanlara yeni bir ortamda gelişmelerine ve uyum sağlamalarına yardımcı olacak fırsatlar sağlamak.",
+        "t2": "Bireysel katılımcılar için",
+        "d2": "Bireysel katılımcılara uygun eğitim ve kariyer fırsatları bulmalarında yardımcı olmak.",
+        "t3": "Başka bir ülkede yönlendirme",
+        "d3": "Öğrencilere ve genç profesyonellere başka bir ülkede yaşamaya uyum sağlamaları, belgeler, konaklama ve kültürel entegrasyon konusunda yardım sağlamak.",
+        "t4": "Gençlik girişimlerini destekleme",
+        "d4": "Yaşam kalitesini iyileştirmek ve yeni fırsatlar yaratmak amacıyla gençlik girişimlerini desteklemek.",
+        "t5": "Yurtdışında eğitim almak için yardım",
+        "d5": "Yurtdışında eğitim almak isteyen öğrencilere ve gençlere yardım sağlamak, eğitim programları hakkında danışmanlık ve rehberlik hizmetleri sunmak."
+    },
+    "donation": "Bağış İçin İletişim",
+    "yourname": "Adınız",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "send": "Gönder",
+    "joinus": "Gerçek bir etki yaratmamıza katılın.",
+    "joinnow": "Şimdi Katılın",
+    "volo": "GÖNÜLLÜLER",
+    "group": "GRUPLAR",
+    "dnt": "BAĞIŞ YAPANLAR"
+}

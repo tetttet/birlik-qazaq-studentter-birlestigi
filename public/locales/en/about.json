@@ -1,0 +1,43 @@
+{
+    "title": "About Us",
+    "subtitle": "Birlik Qazaq Jastary is a volunteer organization created to support Kazakh students studying in Turkey.",
+    "desc": "We aim to help students adapt to the new environment, resolve arising issues, and provide opportunities for personal growth and professional development. Our organization is founded on the principles of mutual assistance, unity, and respect for Kazakh culture. We understand how important it is to have support in a foreign country, especially for students facing adaptation difficulties, language barriers, and other challenges. We create a community where every student feels safe and can develop.",
+    "help": {
+        "title1": "Student Support",
+        "desc2": "We assist with solving everyday and legal issues, provide consultations on academic and administrative processes in Turkish universities, help with housing, and integrate students into the new environment.",
+        "title2": "Educational Initiatives",
+        "desc3": "We conduct training sessions, workshops, and lectures aimed at developing students' personal and professional skills. We believe that knowledge and experience are the key to success.",
+        "title3": "Cultural Events",
+        "desc4": "We organize cultural events where students can get acquainted with the traditions and culture of Kazakhstan and learn about Turkish culture, fostering intercultural connections."
+    },
+    "mission": {
+        "title": "Our Mission",
+        "desc1": "To help students adapt to the new environment, resolve arising issues, and provide opportunities for personal growth and professional development.",
+        "desc2": "To create strong connections among Kazakh students in Turkey, support them in the adaptation process, and provide educational, cultural, and social opportunities to enhance their lives. We believe in the power of unity and strive to develop cultural, educational, and social projects that help students unlock their potential and become leaders in their fields."
+    },
+    "teamCards": {
+        "title1": "Student Support",
+        "description1": "We assist with solving everyday and legal issues, provide consultations on academic and administrative processes in Turkish universities, and help with housing and integration into the new environment.",
+        "title2": "Educational Initiatives",
+        "description2": "We conduct workshops, masterclasses, and lectures aimed at developing personal and professional skills of students. We believe that knowledge and experience are the keys to success.",
+        "title3": "Cultural Events",
+        "description3": "We organize cultural events where students can learn about the traditions and culture of Kazakhstan, as well as explore Turkish culture, building cross-cultural connections."
+    },
+    "blog": {
+        "text1": "At BIRLIK, we are dedicated to fostering a community where technology and collaboration come together to empower individuals and organizations. Our mission is to provide developers, students, and businesses with the tools, resources, and support they need to thrive in today’s rapidly evolving tech world.",
+        "text2": "We aim to create a platform that bridges knowledge gaps, nurtures innovation, and encourages continuous learning.",
+        "text3": "Whether you're a seasoned developer looking to stay ahead of the curve, a student learning new technologies, or a business in need of cutting-edge solutions, BIRLIK is here to help you succeed.",
+        "title1": "Student Support and Mentorship",
+        "title2": "Educational Initiatives and Workshops",
+        "blog": "Blog Posts"
+    },
+    "team": {
+        "meet": "Meet our professionals",
+        "desc": "We aim to help students adapt to the new environment, resolve arising issues, and provide opportunities for personal growth and professional development. Our organization is founded on the principles of mutual assistance, unity, and respect for Kazakh culture. We understand how important it is to have support in a foreign country, especially for students facing adaptation difficulties, language barriers, and other challenges. We create a community where every student feels safe and can develop.",
+        "viewall": "View All"
+    },
+    "map": {
+        "title": "More Than 10 Years We Provide Service",
+        "subtitle": "Birlik Qazaq Jastary is a volunteer organization created to support Kazakh students studying in Turkey."
+    }
+}
