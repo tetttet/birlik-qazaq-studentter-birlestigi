@@ -39,12 +39,18 @@ const leaders = [
     {
         image: '',
         title: "Didar Okas",
-        description: '2021-2023 Birlik Qazaq Jastary | Көшбасшыларының кеңесшісі | 2023-2024 Көшбасшысы',
+        description: '<strong>2021-2023</strong>: Birlik Qazaq Jastary Көшбасшыларының кеңесшісі <br /> <strong>2023-2024:</strong> Көшбасшысы',
     },
     {
         image: '9.jpeg',
-        title: "Нұрасыл Балташ",
+        title: "Nurassyl Baltash",
         description: '<strong>2022-2024</strong>: Istanbul Medipol University президенті <br /> <strong>2024-2025</strong>: Бірлік Қазақ Студенттер Бірлестігінің Басшысы',
+    }
+    ,
+    {
+        image: '10.jpeg',
+        title: "Dilnaz Nurmaganbetova",
+        description: '<strong>2021-2023</strong> белсенді студент <br /> <strong>2024</strong> Haliç университетінің көшбасшысы <br /> <strong>2024-2025</strong> көшбасшы',
     }
 ];
 

@@ -1,23 +1,16 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import img1 from "../../assets/mission/1.jpg";
-import img2 from "../../assets/mission/2.jpg";
-import img3 from "../../assets/mission/3.jpg";
-import img4 from "../../assets/mission/4.jpg";
-import img5 from "../../assets/mission/5.jpg";
-import img6 from "../../assets/mission/6.jpg";
-
 const MissionSection = () => {
     const { t } = useTranslation("news");
 
     const missions = [
-        { img: img1 },
-        { img: img2 },
-        { img: img3 },
-        { img: img4 },
-        { img: img5 },
-        { img: img6 },
+        { img: "t1.jpeg" },
+        { img: "t2.jpeg" },
+        { img: "t10.jpeg" },
+        { img: "t12.jpeg" },
+        { img: "t6.jpeg" },
+        { img: "t8.jpeg" },
     ];
 
     return (
@@ -33,7 +26,7 @@ const MissionSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 mx-auto max-w-5xl">
                 {missions.map((mission, index) => (
                     <div key={index} className="relative group">
-                        <img src={mission.img} alt="Mission" className="w-full h-auto rounded-lg" />
+                        <img src={`/img/${mission.img}`} alt="Mission" className="w-full h-auto rounded-lg" />
                         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <h4 className="text-white text-lg font-bold">
 

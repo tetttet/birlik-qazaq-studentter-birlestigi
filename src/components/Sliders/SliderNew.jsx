@@ -7,10 +7,10 @@ const Slider = () => {
     const { t } = useTranslation();
     const [currentIndex, setCurrentIndex] = useState(1);
     const images = [
-        "/img/4.JPG",
-        "/img/3.JPG",
-        "/img/2.JPG",
-        "/img/1.JPG",
+        "/img/123.jpeg",
+        "/img/s1.png",
+        "/img/s2.png",
+        "/img/s3.png",
     ];
 
     useEffect(() => {

@@ -1,11 +1,3 @@
-
-import img1 from '../../assets/images/team1.png';
-import img2 from '../../assets/images/team2.png';
-import img3 from '../../assets/images/team3.png';
-import img4 from '../../assets/images/team4.png';
-import img5 from '../../assets/images/team5.png';
-import img6 from '../../assets/images/team6.png';
-import img7 from '../../assets/images/team7.png';
 import img8 from '../../assets/images/team8.png';
 import img9 from '../../assets/images/team9.png';
 
@@ -14,17 +6,17 @@ import { gsap } from "gsap";
 import { Power4 } from 'gsap/gsap-core';
 
 const data = [
-  { key: 1, title: "Нұрасыл Балташ", role: "Көшбасшы", img: img1 },
-  { key: 2, title: "Дильназ Нурмаганбетова", role: "Көшбасшы", img: img2 },
-  { key: 3, title: "Нурдин Айтмырза", role: "Орынбасар", img: img3 },
-  { key: 4, title: "Альтемір Жеңісбек", role: "Орынбасар", img: img4 },
-  { key: 5, title: "Аружан Қайырбек", role: "Орынбасар", img: img5 },
-  { key: 6, title: "⁠⁠Алина Мизамбаева", role: "Орынбасар", img: img6 },
-  { key: 7, title: "⁠⁠Данаел Кама", role: "Орынбасар", img: img7 },
+  { key: 1, title: "Нұрасыл Балташ", role: "Көшбасшы", img: "1.png" },
+  { key: 2, title: "Дильназ Нурмаганбетова", role: "Көшбасшы", img: "2.png" },
+  { key: 3, title: "Нурдин Айтмырза", role: "Орынбасар", img: "4.png" },
+  { key: 4, title: "Альтемір Жеңісбек", role: "Орынбасар", img: "8.png" },
+  { key: 5, title: "Аружан Қайырбек", role: "Орынбасар", img: "6.jpeg" },
+  { key: 6, title: "⁠⁠Алина Мизамбаева", role: "Орынбасар", img: "7.jpeg" },
+  { key: 7, title: "⁠⁠Данаел Кама", role: "Орынбасар", img: "3.jpeg" },
   { key: 8, title: "Жасұлан Ниятқұл", role: "Орынбасар", img: img8 },
   { key: 9, title: "Нұрайым Искакова", role: "Орынбасар", img: img9 },
   { key: 9, title: "Ақиқат Димағамбетов", role: "Орынбасар", img: img9 },
-  { key: 10, title: "Аружан Нурмаганбетова", role: "Координатор", img: img9 },
+  { key: 10, title: "Аружан Нурмаганбетова", role: "Координатор", img: "5.jpeg" },
   { key: 11, title: "⁠⁠Алихан Кереев", role: "Орынбасар", img: img9 },
 ]
 
@@ -99,7 +91,7 @@ function List() {
               sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-[15rem] sm:h-[15rem] 
               overflow-hidden rounded-full'
             >
-              <img src={item.img} className='w-[100%] h-[100%] object-contain' />
+              <img src={`/b/t/${item.img}`} className='w-[100%] h-[100%] object-contain' />
             </div>
             <div className="hidden sm:inline-block bluelayer sm:absolute top-0 left-0 z-[2] w-full h-0 bg-[#f5f19c]"></div>
           </div>
