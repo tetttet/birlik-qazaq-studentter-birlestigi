@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 import ExecutiveTeam from '../../components/Team/Members/Members.jsx';
 import NewsSlider from '../../components/Sliders/NewsSlider/NewsSlider.jsx';
+import ProjectGrid from '../../components/Sliders/Blog/ProjectGrid.jsx';
 
 const news = () => {
   return (
@@ -14,7 +15,7 @@ const news = () => {
       <NewsSlider />
 
       {/* News */}
-      <ExecutiveTeam />
+      {/* <ExecutiveTeam /> */}
 
       {/* Footer */}
       <Footer />

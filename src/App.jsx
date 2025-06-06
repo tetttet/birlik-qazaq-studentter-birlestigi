@@ -27,11 +27,15 @@ import Page13 from "./pages/Raider/Pages/Page13.jsx";
 import Page14 from "./pages/Raider/Pages/Page14.jsx";
 import SearchPage from "./pages/SearchPage.jsx";
 import Team from "./pages/Team/Team.jsx";
+import TeamMembers from "./pages/TeamMembers.jsx";
+import ProjectTeam from "./pages/Team/ProjectTeam.jsx";
 
 const routes = [
   { path: "/", element: <Home />, exact: true },
   { path: "/about", element: <AboutUs /> },
   { path: "/search", element: <SearchPage /> },
+  { path: "/teammembers", element: <TeamMembers /> },
+  { path: "/project-team", element: <ProjectTeam /> },
   { path: "/contact", element: <ContactUs /> },
   { path: "/news", element: <News /> },
   { path: "/events", element: <Events /> },

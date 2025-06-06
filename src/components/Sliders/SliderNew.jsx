@@ -2,21 +2,15 @@ import { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
-import img1 from "../../assets/news/11.jpg";
-import img2 from "../../assets/news/12.jpg";
-import img3 from "../../assets/news/13.jpg";
-import img4 from "../../assets/news/14.jpg";
-import img5 from "../../assets/news/15.jpg";
 
 const Slider = () => {
     const { t } = useTranslation();
     const [currentIndex, setCurrentIndex] = useState(1);
     const images = [
-        img1,
-        img2,
-        img3,
-        img4,
-        img5,
+        "/img/4.JPG",
+        "/img/3.JPG",
+        "/img/2.JPG",
+        "/img/1.JPG",
     ];
 
     useEffect(() => {

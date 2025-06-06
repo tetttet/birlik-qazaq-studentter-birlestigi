@@ -15,6 +15,14 @@
   src: url("./assets/fonts/font3.ttf");
 }
 
+.white-text-pr {
+  color: #ffffff;
+}
+
+.ct-new {
+  color: #ffffff;
+}
+
 .App {
   text-align: center;
 }

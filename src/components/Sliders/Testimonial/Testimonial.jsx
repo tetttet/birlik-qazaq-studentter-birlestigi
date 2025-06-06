@@ -7,21 +7,21 @@ const Testimonial = () => {
     const { t } = useTranslation();
     const testimonials = [
         {
-            category: 'Вопросы',
+            category: 'Сұрақтар',
             title: t('testimonial.itemt2'),
             description: t('testimonial.itemd2'),
             author: '',
             avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQyw0r1V9DmyYAGrQxhyD-FjKZOHkcJuDlTA&s',
         },
         {
-            category: 'Помощь',
+            category: 'Көмек',
             title: t('testimonial.itemt1'),
             description: t('testimonial.itemd1'),
             author: '',
             avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6HeMsmAZac2mPBRihwVT1vQ52RJaT6YwMHQ&s',
         },
         {
-            category: 'Ответы',
+            category: 'Жауаптар',
             title: t('testimonial.itemt3'),
             description: t('testimonial.itemd3'),
             author: '',

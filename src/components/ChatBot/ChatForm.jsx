@@ -15,14 +15,14 @@ const ChatForm = ({ chatHistory, setChatHistory, generateBotResponse }) => {
         // generateBotResponse([...chatHistory, { role: "user", text: user_message }]);
 
         setTimeout(() => {
-            setChatHistory((history) => [...history, { role: "model", text: "Думает..." }]);
+            setChatHistory((history) => [...history, { role: "model", text: "Ойлануда..." }]);
             generateBotResponse([...chatHistory, { role: "user", text: `Using the details ${user_message}` }]);
         }, 600);
     }
 
     return (
         <form action="#" className='chat-form' onSubmit={handleFormSubmit}>
-            <input ref={inputRef} type="text" placeholder='Message...' className='message-input' required />
+            <input ref={inputRef} type="text" placeholder='Жазыңыз...' className='message-input' required />
             <button>
                 <FaAngleUp />
             </button>

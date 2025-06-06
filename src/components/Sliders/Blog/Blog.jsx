@@ -4,6 +4,30 @@ import "slick-carousel/slick/slick-theme.css";
 import { useTranslation } from 'react-i18next';
 import { Link, useNavigate } from "react-router-dom";
 
+export const currentPosts = [
+    {
+        id: 1,
+        image_url: "/img/IMG_3389.JPG",
+        date: "2025 жылы",
+        title: "Кония қаласының қазақ жастарының",
+        description: "Кония қаласының қазақ жастарының Анкараға барып, референдумға қатысқан сәтінен естелік фото. Бұл маңызды күнде жастар азаматтық белсенділік танытып, ел болашағына бейжай қарамайтындықтарын көрсетті.",
+    },
+    {
+        id: 2,
+        image_url: "/img/IMG_3390.JPG",
+        date: "2025 жылы",
+        title: "Ушак қаласында өткен іс-шарасына",
+        description: "Ушак қаласында өткен “Uluslararası Öğrenci Buluşması” (Халықаралық студенттер кездесуі) іс-шарасына түрлі елдерден келген студенттер қатысты. Бұл шара аясында қатысушылар өз мәдениеттерін таныстырып, ұлттық өнерлерін паш етті.",
+    },
+    {
+        id: 3,
+        image_url: "/img/IMG_3385.JPG",
+        date: "2024 жылы ",
+        title: "Анталья қаласында өткен Футбол фестивалі",
+        description: "Анталья қаласында өткен Футбол фестиваліне Бурдур қаласының жастары қатысып, белсенді өнер көрсетті. Бұл шара спорттық шеберлікті шыңдап қана қоймай, жастар арасындағы достық пен ынтымақтастықты арттыруға ерекше мүмкіндік берді.",
+    },
+];
+
 const Blog = () => {
     const { t, i18n } = useTranslation();
     const [currentPage, setCurrentPage] = useState(1); // Страница по умолчанию
@@ -81,30 +105,6 @@ const Blog = () => {
             setCurrentPage(currentPage - 1);
         }
     };
-
-    const currentPosts = [
-        {
-            id: 1,
-            image_url: "/assets/about/about1.jpg",
-            date: "2025-06-01",
-            title: "Birlik Qazaq Studentter Birlestigi",
-            description: "Это описание первого статического поста.",
-        },
-        {
-            id: 2,
-            image_url: "/assets/about/2.jpg",
-            date: "2025-06-02",
-            title: "Birlik Qazaq Studentter Birlestigi",
-            description: "Это описание второго статического поста.",
-        },
-        {
-            id: 3,
-            image_url: "/assets/about/6.jpg",
-            date: "2025-06-02",
-            title: "Birlik Qazaq Studentter Birlestigi",
-            description: "Это описание второго статического поста.",
-        },
-    ];
 
 
     return (

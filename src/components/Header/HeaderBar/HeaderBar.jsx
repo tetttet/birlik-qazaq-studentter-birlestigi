@@ -71,38 +71,40 @@ const HeaderBar = () => {
                         <div className={styles['headerbar-dropdown']}>
                             <Link to="/about">{t('header.ourMission')}</Link>
                             <Link to="/about">{t('header.history')}</Link>
-                            <Link to="/about">{t('header.team')}</Link>
+                            <Link to="/events">{t('header.team')}</Link>
                         </div>
                     )}
                 </div>
+
+                <div className={styles['headerbar-navItem']}>
+                    <Link to="/teammembers">Көшбасшылар</Link>
+                </div>
+
+
                 {/* News */}
-                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('news')}>
+                <div className={styles['headerbar-navItem']} >
                     <Link to="/news">{t('header.news')}</Link>
+                </div>
+                {/* Stories */}
+                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('stories')}>
+                    <Link to="/team">{t('header.stories')}</Link>
                     <span className={styles['headerbar-dropdownIcon']}>
-                        {openDropdown === 'news' ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                        {openDropdown === 'stories' ? <IoIosArrowUp /> : <IoIosArrowDown />}
                     </span>
-                    {openDropdown === 'news' && (
+                    {openDropdown === 'stories' && (
                         <div className={styles['headerbar-dropdown']}>
-                            <Link to="/news">{t('header.latestUpdates')}</Link>
+                            <Link to="/team">
+                                2024-2025 оқу жылының жобалары
+                            </Link>
+                            <Link to="/project-team">
+                                2025-2026 оқу жылының жобалары
+                            </Link>
                         </div>
                     )}
                 </div>
                 {/* Events */}
-                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('events')}>
+                <div className={styles['headerbar-navItem']}>
                     <Link to="/events">{t('header.events')}</Link>
-                    <span className={styles['headerbar-dropdownIcon']}>
-                        {openDropdown === 'events' ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                    </span>
-                    {openDropdown === 'events' && (
-                        <div className={styles['headerbar-dropdown']}>
-                            <Link to="/events">{t('header.upcomingEvents')}</Link>
-                            <Link to="/events">{t('header.pastEvents')}</Link>
-                        </div>
-                    )}
-                </div>
-                {/* Accounts */}
-                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('accounts')}>
-                    <Link to="#">{t('header.accounts')}</Link>
                 </div>
 
                 {/* Get Involved */}
@@ -110,18 +112,13 @@ const HeaderBar = () => {
                     <Link to="/connection">{t('header.getInvolved')}</Link>
                 </div>
 
-                {/* Stories */}
-                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('stories')}>
-                    <Link to="/team">{t('header.stories')}</Link>
-                </div>
-
-                <div className={styles['headerbar-navItem']}>
-                    <Link to="/team">Команда</Link>
-                </div>
-
                 {/* Contact */}
                 <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('contact')}>
                     <Link to="/raider">{t('header.personalExperiences')}</Link>
+                </div>
+                {/* Accounts */}
+                <div className={styles['headerbar-navItem']} onClick={() => toggleDropdown('accounts')}>
+                    <Link to="#">{t('header.accounts')}</Link>
                 </div>
             </div>
         </div>

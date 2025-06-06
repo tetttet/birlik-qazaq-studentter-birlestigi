@@ -57,7 +57,7 @@ const Services = ({ services, title, subtitle }) => {
                             to={service.link}
                             className="py-3 flex items-center justify-center w-full font-semibold rounded-md bg-white hover:bg-purple-300 hover:text-white transition-all duration-500 dark:hover:bg-purple-300 dark:hover:text-white"
                         >
-                            Get Started
+                            Бастау
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512"

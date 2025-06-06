@@ -72,12 +72,12 @@ const Footer = () => {
                                 />
                             </div>
                             <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                                Стать волонтёром
+                                Волонтер болыңыз
                             </button>
                         </div>
                         <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
-                            Станьте волонтёром, примите участие в наших проектах или сделайте пожертвование.
-                            <br className="lg:block hidden" />Вместе мы можем больше!
+                           Волонтер болыңыз, біздің жобаларымызға қатысыңыз.
+                            <br className="lg:block hidden" />Бірге біз көп нәрсені жасай аламыз!
                         </p>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ const Footer = () => {
                         </span>
                     </Link>
                     <a href='https://www.linkedin.com/in/turan-yahya-gazizuly-b21056261/' className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-                        Design and Developed by <div className='font-bold text-gray-700 hover:text-black hover:underline'>Turan-Yahya Gazizuly</div> © 2025 - 2026
+                        Сайт разработан <div className='font-bold text-gray-700 hover:text-black hover:underline'>Turan-Yahya Gazizuly</div> © 2025 - 2026
                     </a>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                         {socialLinks.map(({ href, icon }, index) => (

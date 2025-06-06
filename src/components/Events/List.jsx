@@ -14,17 +14,18 @@ import { gsap } from "gsap";
 import { Power4 } from 'gsap/gsap-core';
 
 const data = [
-  { key: 1, title: "Нұрасыл Балташ", role: "Президент", img: img1 },
-  { key: 2, title: "Дильназ Нурмаганбетова", role: "Президент", img: img2 },
-  { key: 3, title: "Нурдин Айтмырз", role: "Вице-лидер", img: img3 },
-  { key: 4, title: "Альтемір Жеңісбек", role: "Вице-лидер", img: img4 },
-  { key: 5, title: "Аружан Қайырбек", role: "Вице-лидер", img: img5 },
-  { key: 6, title: "⁠⁠Алина Мизамбаева", role: "Вице-лидер", img: img6 },
-  { key: 7, title: "⁠⁠Данаел Кама", role: "Координатор", img: img7 },
-  { key: 8, title: "Жасұлан Ниятқұл", role: "Вице-лидер", img: img8 },
-  { key: 9, title: "Нұрайым Искакова", role: "Вице-лидер", img: img9 },
-  { key: 9, title: "Ақиқат Димағамбетов", role: "Вице-лидер", img: img9 },
-  { key: 10, title: "⁠⁠Алихан Кереев", role: "Вице-лидер", img: img9 },
+  { key: 1, title: "Нұрасыл Балташ", role: "Көшбасшы", img: img1 },
+  { key: 2, title: "Дильназ Нурмаганбетова", role: "Көшбасшы", img: img2 },
+  { key: 3, title: "Нурдин Айтмырза", role: "Орынбасар", img: img3 },
+  { key: 4, title: "Альтемір Жеңісбек", role: "Орынбасар", img: img4 },
+  { key: 5, title: "Аружан Қайырбек", role: "Орынбасар", img: img5 },
+  { key: 6, title: "⁠⁠Алина Мизамбаева", role: "Орынбасар", img: img6 },
+  { key: 7, title: "⁠⁠Данаел Кама", role: "Орынбасар", img: img7 },
+  { key: 8, title: "Жасұлан Ниятқұл", role: "Орынбасар", img: img8 },
+  { key: 9, title: "Нұрайым Искакова", role: "Орынбасар", img: img9 },
+  { key: 9, title: "Ақиқат Димағамбетов", role: "Орынбасар", img: img9 },
+  { key: 10, title: "Аружан Нурмаганбетова", role: "Координатор", img: img9 },
+  { key: 11, title: "⁠⁠Алихан Кереев", role: "Орынбасар", img: img9 },
 ]
 
 

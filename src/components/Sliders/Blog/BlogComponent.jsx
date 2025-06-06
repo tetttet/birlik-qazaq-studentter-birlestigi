@@ -55,27 +55,6 @@ const BlogComponent = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="lg:mt-6 sm:mt-0 mt-6 lg:ml-0 sm:ml-6 lg:w-auto sm:w-1/2">
-                            <img src={img3} alt="robotic arm" className="rounded-lg w-full" />
-                            <div className="mt-4">
-                                <div className="flex items-center justify-between">
-                                    <div className="flex items-center">
-                                        <svg width={64} height={2} viewBox="0 0 64 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M64 1H0" stroke="#6B7280" />
-                                        </svg>
-                                        <p className="text-base leading-none text-gray-500 ml-2">
-                                            {t("blog.blog")}
-                                        </p>
-                                    </div>
-                                </div>
-                                <h1 className="text-2xl font-semibold leading-6 mt-4 text-gray-800">
-                                    {t("blog.title2")}
-                                </h1>
-                                <p className="text-base leading-6 text-gray-600 mt-2">
-                                    {t("blog.text3")}
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

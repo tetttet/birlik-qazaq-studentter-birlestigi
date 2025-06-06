@@ -53,21 +53,21 @@ const Sidebar = () => {
     const location = useLocation();
 
     const mainMenuItems = useMemo(() => [
-        { label: "ВСТУПЛЕНИЕ", page: "introduction", path: "/introduction" },
+        { label: "КІРІСПЕ", page: "introduction", path: "/introduction" },
         { label: "QAZAQ STUDENTTER BIRLESTIGI", page: "kazakh-students-union", path: "/kazakh-students-union" },
-        { label: "КОНСУЛЬСКИЙ УЧЕТ", page: "consular-registration", path: "/consular-registration" },
-        { label: "СТУДЕНЧЕСКИЙ ВНЖ", page: "student-residence-permit", path: "/student-residence-permit" },
+        { label: "КОНСУЛДЫҚ ЕСЕПКЕ ТҰРУ", page: "consular-registration", path: "/consular-registration" },
+        { label: "СТУДЕНТТІК ЫҚТИМАЛ ЖАТАҚ", page: "student-residence-permit", path: "/student-residence-permit" },
         { label: "ÖĞRENCI ISTANBULKART", page: "student-istanbulkart", path: "/student-istanbulkart" },
-        { label: "КАК ОТКРЫТЬ БАНКОВСКИЙ СЧЕТ?", page: "how-to-open-bank-account", path: "/how-to-open-bank-account" },
-        { label: "ЖИЛЬЕ В ТУРЦИИ", page: "housing-in-turkey", path: "/housing-in-turkey" },
-        { label: "АПТЕКИ", page: "pharmacies", path: "/pharmacies" },
-        { label: "TOП-10 ПОЛЕЗНЫХ ПРИЛОЖЕНИЙ", page: "top-10-useful-apps", path: "/top-10-useful-apps" },
-        { label: "МАГАЗИНЫ И РЫНКИ", page: "shops-and-markets", path: "/shops-and-markets" },
-        { label: "СПОСОБЫ ПЕРЕДВИЖЕНИЯ", page: "transportation-methods", path: "/transportation-methods" },
-        { label: "СПОСОБЫ БЫСТРО ДОБРАТЬСЯ", page: "fast-ways-to-travel", path: "/fast-ways-to-travel" },
+        { label: "БАНК ШОТЫН ҚАЛАЙ АШУҒА БОЛАДЫ?", page: "how-to-open-bank-account", path: "/how-to-open-bank-account" },
+        { label: "ТҮРКИЯДАҒЫ ТҰРҒЫН ҮЙ", page: "housing-in-turkey", path: "/housing-in-turkey" },
+        { label: "ДӘРІХАНАЛАР", page: "pharmacies", path: "/pharmacies" },
+        { label: "ЕҢ ПАЙДАЛЫ 10 ҚОСЫМША", page: "top-10-useful-apps", path: "/top-10-useful-apps" },
+        { label: "ДҮКЕНДЕР МЕН БАЗАРЛАР", page: "shops-and-markets", path: "/shops-and-markets" },
+        { label: "ҚОЗҒАЛУ ӘДІСТЕРІ", page: "transportation-methods", path: "/transportation-methods" },
+        { label: "ЖЫЛДАМ ЖЕТУ ЖОЛДАРЫ", page: "fast-ways-to-travel", path: "/fast-ways-to-travel" },
         { label: "ISTANBUL MUSEUM CARD", page: "istanbul-museum-card", path: "/istanbul-museum-card" },
-        { label: "ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ", page: "additional-information", path: "/additional-information" },
-        { label: "ЗАКЛЮЧЕНИЕ", page: "conclusion", path: "/conclusion" },
+        { label: "ҚОСЫМША АҚПАРАТ", page: "additional-information", path: "/additional-information" },
+        { label: "ҚОРЫТЫНДЫ", page: "conclusion", path: "/conclusion" },
     ], []);
 
     const isMobile = window.innerWidth <= 768; // проверяем, если устройство мобильное

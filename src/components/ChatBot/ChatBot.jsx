@@ -19,7 +19,7 @@ const ChatBot = () => {
     const [showChatBot, setShowChatBot] = useState(false);
     const chatBodyRef = useRef();
     const generateBotResponse = async (history) => {
-        const updateChatHistory = (text, isError = false) => setChatHistory(prev => [...prev.filter(msg => msg.text !== "Думает..."), { role: "model", text, isError }]);
+        const updateChatHistory = (text, isError = false) => setChatHistory(prev => [...prev.filter(msg => msg.text !== "Ойлануда..."), { role: "model", text, isError }]);
 
         history = history.map(({ role, text }) => ({ role, parts: [{ text }] }));
         const requestOptions = {
@@ -64,8 +64,9 @@ const ChatBot = () => {
                 <div className='chatbot-popup'>
                     <div className='chat-header'>
                         <div className='header-info'>
-                            <img src="/assets/images/slider/1.jpg" alt="" />
-                            <h2 className='logo-text'>ChatBot</h2>
+                            <h2 className='logo-text'>
+                                Birlik Qazaq Studentter Birlestigi
+                            </h2>
                         </div>
                         <button onClick={() => setShowChatBot(prev => !prev)}>
                             <FaAngleDown />
@@ -74,9 +75,9 @@ const ChatBot = () => {
 
                     <div ref={chatBodyRef} className='chat-body'>
                         <div className='message bot-message'>
-                            <img src="/assets/images/slider/1.jpg" alt="" />
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Kazakhstan_%283-2%29.svg/2560px-Flag_of_Kazakhstan_%283-2%29.svg.png" alt="" />
                             <p className='message-text'>
-                                Hi, I'm ChatBot! How can I help you today?
+                                Сәлем! Бүгін мен сізге қалай көмектесе аламын?
                             </p>
                         </div>
 

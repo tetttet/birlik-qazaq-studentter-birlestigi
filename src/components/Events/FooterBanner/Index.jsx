@@ -15,14 +15,7 @@ function FooterBanner() {
         <div className="right order-2 sm:order-3 flex sm:w-1/2 items-center justify-between sm:px-10">
           <div className="rght1 sm:w-2/3 flex flex-col items-end px-8 mt-6">
             <h3 className="text-[2.4vh] sm:text-[1.4rem] font-[Sansita] font-medium text-right">
-              «Бірлік» студенттер бірлестігі <br />
-              дамуға ұмтылу және <br />
-              білім сапасын арттыру <br />
-              Қазақстан.
-              Біздің мақсатымыз ұйым құру <br />
-              мүдделерін білдіретін болады
-              студенттерге және оларға <br /> көмектесу
-              өз мақсаттарына жету.
+              «Бірлік Қазақ Студенттер Бірлестігі» студенттер бірлестігі — бұл Қазақстандағы жастардың дамуға ұмтылысын, білім сапасын арттыруға деген талпынысын қолдайтын ұйым. Біздің мақсатымыз – студенттердің мүдделерін білдіретін, оларды өз армандарына жетуге шабыттандыратын және жан-жақты қолдау көрсететін орта қалыптастыру.
             </h3>
           </div>
           <div className="hidden sm:inline-block rght2 relative w-[150px] h-[150px] overflow-hidden;">

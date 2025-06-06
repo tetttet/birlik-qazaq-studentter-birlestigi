@@ -29,11 +29,11 @@ export default function SearchPage() {
       <Header />
       <div className="p-6 max-w-7xl mx-auto">
         <h1 className="text-2xl font-medium mb-4">
-          Результаты поиска по запросу: <span className='font-bold'>{query ? query : 'Не указан запрос'}</span>
+          Сұрау бойынша іздеу нәтижелері{" "}:{" "}<span className='font-bold'>{query ? query : 'Сұраныс көрсетілмеген'}</span>
         </h1>
 
         {loading && <p className="text-blue-500">
-          Сервер обрабатывает ваш запрос, пожалуйста, подождите...
+         Сервер сұрауыңызды өңдеуде, күте тұрыңыз...
         </p>}
         {error && <p className="text-red-500">Error: {error}</p>}
 
